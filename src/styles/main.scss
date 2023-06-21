@@ -1,0 +1,50 @@
+@import './normolize.scss';
+
+
+.header {
+    background: #fff;
+
+    .container {
+        padding: 10px 0;
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .menu {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+            }
+
+            .login-side {
+                display: flex;
+                gap: 20px;
+
+                .menu-link {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .btn {
+                    background-color: #0066FF;
+                    padding: 15px;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #fff;
+                    border-radius: 3px;
+                    transition: 0.4s;
+
+                    &:hover{
+                        color: #ffffff;
+                        background-color: rgb(255, 2, 2);
+                    }
+                }
+            }
+        }
+    }
+}
