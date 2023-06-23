@@ -5,15 +5,15 @@
     background: #fff;
 
     .container {
-        padding: 10px 0;
+        padding: 20px 0;
         width: 1300px;
-        justify-content: center;
+        margin: 0 auto;
 
         .wrapper {
             display: flex;
             justify-content: space-between;
-            box-shadow: 0px 0px 1px gray;
-
+            align-items: center;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 
             .menu {
                 display: flex;
@@ -34,6 +34,7 @@
                 }
 
                 .btn {
+
                     background-color: #0066FF;
                     padding: 15px;
                     font-weight: 700;
@@ -64,45 +65,62 @@
 
         .wrapper {
             display: flex;
+
             .left {
-                
+
                 h2 {
                     font-weight: 900;
                     line-height: 70px;
                     color: #000;
                     font-size: 57px;
                     margin: 173px 0 27px;
-                    span{
+
+                    span {
                         background: yellow;
                     }
                 }
-                p{
+
+                p {
                     line-height: 24px;
                     font-size: 18px;
                 }
-                .form{
-                input{
-                    margin: 50px 0 20px;
-                    border:3px solid #0066FF;
-                    padding: 16px 117px 16px 13px;
-                    width: 250px;
-                    height: 40px;
-                }
-                .btn{
-                    background-color: #0066FF;
-                    padding: 12px 16px;
-                    color: #fff;
-                    border-radius: 0 5px 5px 0;
-                    margin-left: -5px;
-                }
-            }
-                .options{
-                    display: flex;
-                    gap: 20px;
-                    .offers{
-                        font-size: 14px;
+
+                .form {
+                    input {
+                        margin: 50px 0 20px;
+                        border: 3px solid #0066FF;
+                        padding: 16px 117px 16px 13px;
+                        width: 250px;
+                        height: 40px;
                     }
-                  
+
+                    .btn {
+                        background-color: #0066FF;
+                        padding: 12px 16px;
+                        color: #fff;
+                        border-radius: 0 5px 5px 0;
+                        margin-left: -5px;
+                        width: 130px;
+                        height: 40px;
+                    }
+                }
+
+                .options {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    
+
+                    .offers {
+                        font-size: 14px;
+                    }   
+                    .dot {
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background-color: #000;
+                    }
+
                 }
             }
         }
